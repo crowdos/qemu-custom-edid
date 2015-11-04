@@ -1,0 +1,2 @@
+lib/firmware/448x640.bin
+etc/modprobe.d/drm_kms_helper.conf

@@ -1,0 +1,13 @@
+Source: qemu-custom-edid
+Section: unknown
+Priority: optional
+Maintainer: Mohammed Sameer <msameer@foolab.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: qemu-custom-edid
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: custom edid for qemu
+ This package contains custom edit to enable qemu qxl driver
+ to derive a 448x640 monitor
