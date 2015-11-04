@@ -1,5 +1,5 @@
 Source: qemu-custom-edid
-Section: unknown
+Section: otherosfs
 Priority: optional
 Maintainer: Mohammed Sameer <msameer@foolab.org>
 Build-Depends: debhelper (>= 9), dos2unix
