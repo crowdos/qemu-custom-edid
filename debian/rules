@@ -6,7 +6,7 @@
 
 override_dh_install:
 	mkdir -p debian/tmp/lib/firmware/
-	cp -a 448x640.bin debian/tmp/lib/firmware/
+	cp -a 400x600.bin debian/tmp/lib/firmware/
 	mkdir -p debian/tmp/etc/modprobe.d/
 	cp -a drm_kms_helper.conf debian/tmp/etc/modprobe.d/
 	dh_install --fail-missing
