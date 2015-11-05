@@ -39,9 +39,8 @@
 #define DPI 72
 #define VFREQ 60 /* Hz */
 #define TIMING_NAME "Linux SVGA"
-#define ESTABLISHED_TIMING1_BITS 0x01 /* Bit 0: 800x600 @ 60Hz */
 #define HSYNC_POL 1
 #define VSYNC_POL 1
-#define CRC 0x92
+#define CRC 0x93
 
 #include "edid.S"
